@@ -57,11 +57,11 @@ login_server::~login_server()
 BOOL login_server::init(HINSTANCE hInst)
 {
 	///* 定时关服务器
-	tagDWORDTime dwShutDownTime;
-	ZeroMemory(&dwShutDownTime, sizeof(dwShutDownTime));
-	dwShutDownTime.year = SHUT_DOWN_YEAY;
-	dwShutDownTime.month = SHUT_DOWN_MONTH;
-
+	tagDWORDTime tagShutDownTime;
+	ZeroMemory(&tagShutDownTime, sizeof(tagShutDownTime));
+	tagShutDownTime.year = SHUT_DOWN_YEAY;
+	tagShutDownTime.month = SHUT_DOWN_MONTH;
+	DWORD dwShutDownTime = tagShutDownTime;
 	DWORD dwCurTime = GetCurrentDWORDTime();
 
 	if (dwCurTime > dwShutDownTime)

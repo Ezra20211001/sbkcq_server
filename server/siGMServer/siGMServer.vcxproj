@@ -67,7 +67,6 @@
     <Link>
       <AdditionalDependencies>memory.lib;dump.lib;odbc.lib;network.lib;filesystem.lib;serverbase.lib;serverframe.lib;winmm.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
@@ -92,7 +91,6 @@
     <Link>
       <AdditionalDependencies>memory.lib;dump.lib;odbc.lib;network.lib;filesystem.lib;serverbase.lib;serverframe.lib;winmm.lib;psapi.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

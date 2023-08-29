@@ -150,8 +150,8 @@ private:
 
 #define ASSERT_P_VALID( ptr ) ASSERT(VALID_POINT(ptr))
 
-
-#define SHUT_DOWN_YEAY 21		//2011
+//服务器自动关闭时间
+#define SHUT_DOWN_YEAY 24		//24表示2024年
 #define SHUT_DOWN_MONTH 6
 #pragma pack(pop)
 

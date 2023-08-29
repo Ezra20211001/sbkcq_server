@@ -67,7 +67,6 @@
       <AdditionalDependencies>memory.lib;dump.lib;odbc.lib;network.lib;filesystem.lib;serverbase.lib;serverframe.lib;winmm.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)library\serverbase\$(Platform)\$(Configuration)\;$(SolutionDir)library\dump\$(Platform)\$(Configuration)\;$(SolutionDir)library\serverframe\$(Platform)\$(Configuration)\;$(SolutionDir)library\memory\$(Platform)\$(Configuration)\;$(SolutionDir)library\odbc\$(Platform)\$(Configuration)\;$(SolutionDir)library\filesystem\$(Platform)\$(Configuration)\;$(SolutionDir)library\network\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
@@ -91,7 +90,6 @@
     <Link>
       <AdditionalDependencies>memory.lib;dump.lib;odbc.lib;network.lib;filesystem.lib;serverbase.lib;serverframe.lib;winmm.lib;psapi.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
