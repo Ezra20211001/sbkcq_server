@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game_net">
+      <UniqueIdentifier>{ec7f2843-91ee-4bdb-a997-f46a2e7d3679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net_other">
+      <UniqueIdentifier>{93981f40-7976-42bb-bb4a-6133f4670ab7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="few_connect_client.cpp">
+      <Filter>game_net</Filter>
+    </ClCompile>
+    <ClCompile Include="few_connect_server.cpp">
+      <Filter>game_net</Filter>
+    </ClCompile>
+    <ClCompile Include="iocp_server.cpp">
+      <Filter>game_net</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="few_connect_client.h">
+      <Filter>game_net</Filter>
+    </ClInclude>
+    <ClInclude Include="few_connect_server.h">
+      <Filter>game_net</Filter>
+    </ClInclude>
+    <ClInclude Include="iocp_server.h">
+      <Filter>game_net</Filter>
+    </ClInclude>
+    <ClInclude Include="server_define.h">
+      <Filter>game_net</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_list.h">
+      <Filter>net_other</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_mutex_list.h">
+      <Filter>net_other</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_queue.h">
+      <Filter>net_other</Filter>
+    </ClInclude>
+    <ClInclude Include="network_define.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="anti_addiction">
+      <UniqueIdentifier>{8a76f0e9-608b-4e98-8f63-14544971e1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="verify_policy">
+      <UniqueIdentifier>{a5114c22-ba71-4dfa-a33a-80581b04c7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{fb098d9b-a8ec-4f2f-8f92-ec26ee971961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="anti_addiction_mgr.cpp">
+      <Filter>anti_addiction</Filter>
+    </ClCompile>
+    <ClCompile Include="anti_addiction_server.cpp">
+      <Filter>anti_addiction</Filter>
+    </ClCompile>
+    <ClCompile Include="anti_addiction_session.cpp">
+      <Filter>anti_addiction</Filter>
+    </ClCompile>
+    <ClCompile Include="verify_policy.cpp">
+      <Filter>verify_policy</Filter>
+    </ClCompile>
+    <ClCompile Include="verify_policy_facebook.cpp">
+      <Filter>verify_policy</Filter>
+    </ClCompile>
+    <ClCompile Include="verify_policy_mgr.cpp">
+      <Filter>verify_policy</Filter>
+    </ClCompile>
+    <ClCompile Include="verify_policy_none_database.cpp">
+      <Filter>verify_policy</Filter>
+    </ClCompile>
+    <ClCompile Include="verify_policy_own_database.cpp">
+      <Filter>verify_policy</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="GMSession.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="login_main.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="si_login_server.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="si_world.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="si_world_mgr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="user_mgr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="user_net_cmd_mgr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anti_addiction_mgr.h">
+      <Filter>anti_addiction</Filter>
+    </ClInclude>
+    <ClInclude Include="anti_addiction_server.h">
+      <Filter>anti_addiction</Filter>
+    </ClInclude>
+    <ClInclude Include="anti_addiction_session.h">
+      <Filter>anti_addiction</Filter>
+    </ClInclude>
+    <ClInclude Include="verify_policy.h">
+      <Filter>verify_policy</Filter>
+    </ClInclude>
+    <ClInclude Include="verify_policy_facebook.h">
+      <Filter>verify_policy</Filter>
+    </ClInclude>
+    <ClInclude Include="verify_policy_mgr.h">
+      <Filter>verify_policy</Filter>
+    </ClInclude>
+    <ClInclude Include="verify_policy_none_database.h">
+      <Filter>verify_policy</Filter>
+    </ClInclude>
+    <ClInclude Include="verify_policy_own_database.h">
+      <Filter>verify_policy</Filter>
+    </ClInclude>
+    <ClInclude Include="verify_policy_own_define.h">
+      <Filter>verify_policy</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="GMSession.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="si_login_server.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="si_login_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="si_world.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="si_world_mgr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="user_mgr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="user_net_cmd_mgr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>NgDBServer</ProjectName>
+    <ProjectGuid>{C40C39F4-5CC2-489F-A392-73CBBBD82254}</ProjectGuid>
+    <RootNamespace>siDBServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\02_config\server\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\_rubbish\Server\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\02_config\server\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\_rubbish\Server\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ServerDefine.lib;WorldDefine.lib;memory.lib;dump.lib;odbc.lib;network.lib;filesystem.lib;serverbase.lib;serverframe.lib;winmm.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)library\serverbase\$(Platform)\$(Configuration)\;$(SolutionDir)library\dump\$(Platform)\$(Configuration)\;$(SolutionDir)library\serverframe\$(Platform)\$(Configuration)\;$(SolutionDir)library\memory\$(Platform)\$(Configuration)\;$(SolutionDir)library\odbc\$(Platform)\$(Configuration)\;$(SolutionDir)library\filesystem\$(Platform)\$(Configuration)\;$(SolutionDir)library\network\$(Platform)\$(Configuration)\;$(SolutionDir)library\WorldDefine\$(Platform)\$(Configuration)\;$(SolutionDir)library\ServerDefine\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>$(IntDir)$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ServerDefine.lib;WorldDefine.lib;memory.lib;dump.lib;odbc.lib;network.lib;filesystem.lib;serverbase.lib;serverframe.lib;psapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)library\serverbase\$(Platform)\$(Configuration)\;$(SolutionDir)library\dump\$(Platform)\$(Configuration)\;$(SolutionDir)library\serverframe\$(Platform)\$(Configuration)\;$(SolutionDir)library\memory\$(Platform)\$(Configuration)\;$(SolutionDir)library\odbc\$(Platform)\$(Configuration)\;$(SolutionDir)library\filesystem\$(Platform)\$(Configuration)\;$(SolutionDir)library\network\$(Platform)\$(Configuration)\;$(SolutionDir)library\WorldDefine\$(Platform)\$(Configuration)\;$(SolutionDir)library\ServerDefine\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)symbol\$(ProjectName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="db_auto_lock.h" />
+    <ClInclude Include="db_define.h" />
+    <ClInclude Include="db_handler.h" />
+    <ClInclude Include="db_server_handler.h" />
+    <ClInclude Include="monitioring_session.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="db_handler.cpp" />
+    <ClCompile Include="db_handler_account.cpp" />
+    <ClCompile Include="db_handler_bank.cpp" />
+    <ClCompile Include="db_handler_common_func.cpp" />
+    <ClCompile Include="db_handler_fame_hall.cpp" />
+    <ClCompile Include="db_handler_guild.cpp" />
+    <ClCompile Include="db_handler_load.cpp" />
+    <ClCompile Include="db_handler_log.cpp" />
+    <ClCompile Include="db_handler_master.cpp" />
+    <ClCompile Include="db_handler_paimai.cpp" />
+    <ClCompile Include="db_handler_pet.cpp" />
+    <ClCompile Include="db_handler_quest.cpp" />
+    <ClCompile Include="db_handler_role.cpp" />
+    <ClCompile Include="db_handler_save.cpp" />
+    <ClCompile Include="db_handler_social.cpp" />
+    <ClCompile Include="db_handler_vip_netbar.cpp" />
+    <ClCompile Include="db_server_handler.cpp" />
+    <ClCompile Include="db_server_handler_account.cpp" />
+    <ClCompile Include="db_server_handler_bank.cpp" />
+    <ClCompile Include="db_server_handler_delegate.cpp" />
+    <ClCompile Include="db_server_handler_fame_hall.cpp" />
+    <ClCompile Include="db_server_handler_guild.cpp" />
+    <ClCompile Include="db_server_handler_log.cpp" />
+    <ClCompile Include="db_server_handler_master.cpp" />
+    <ClCompile Include="db_server_handler_paimai.cpp" />
+    <ClCompile Include="db_server_handler_pet.cpp" />
+    <ClCompile Include="db_server_handler_quest.cpp" />
+    <ClCompile Include="db_server_handler_register.cpp" />
+    <ClCompile Include="db_server_handler_test.cpp" />
+    <ClCompile Include="db_server_handler_vip_netbar.cpp" />
+    <ClCompile Include="db_server_main.cpp" />
+    <ClCompile Include="monitioring_session.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

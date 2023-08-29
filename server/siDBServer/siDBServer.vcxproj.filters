@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{5eaa5821-40cd-4157-b3e2-21d39f5a92b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\header">
+      <UniqueIdentifier>{ee967375-020f-4dc2-be8d-1813351d34fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\cpp">
+      <UniqueIdentifier>{2aca5199-901f-47d4-9982-4e07213f96a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_handler">
+      <UniqueIdentifier>{402d18bd-9769-42f5-85b9-4856629b599f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_handler\header">
+      <UniqueIdentifier>{000f40af-37b9-40c3-b045-1e1b3d716e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_handler\cpp">
+      <UniqueIdentifier>{4f2ddb4d-51fc-4ec7-b002-2902013fd865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_net_handler">
+      <UniqueIdentifier>{3fc00de1-7e2b-4b4b-b4d8-148d9a73267b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_net_handler\header">
+      <UniqueIdentifier>{f9964d1b-4de9-411c-bbd0-56b9dfe6e297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db_net_handler\cpp">
+      <UniqueIdentifier>{672ffd71-da22-4502-a421-c7a5e8533688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="db_auto_lock.h">
+      <Filter>common\header</Filter>
+    </ClInclude>
+    <ClInclude Include="db_define.h">
+      <Filter>common\header</Filter>
+    </ClInclude>
+    <ClInclude Include="db_handler.h">
+      <Filter>db_handler\header</Filter>
+    </ClInclude>
+    <ClInclude Include="db_server_handler.h">
+      <Filter>db_net_handler\header</Filter>
+    </ClInclude>
+    <ClInclude Include="monitioring_session.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="db_handler.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_account.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_bank.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_common_func.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_fame_hall.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_guild.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_load.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_log.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_master.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_paimai.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_pet.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_quest.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_role.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_save.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_social.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_handler_vip_netbar.cpp">
+      <Filter>db_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_account.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_bank.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_delegate.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_fame_hall.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_guild.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_log.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_master.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_paimai.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_pet.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_quest.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_register.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_test.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_handler_vip_netbar.cpp">
+      <Filter>db_net_handler\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="db_server_main.cpp" />
+    <ClCompile Include="monitioring_session.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+</Project>

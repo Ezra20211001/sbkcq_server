@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Server">
+      <UniqueIdentifier>{f54c755a-0711-45ba-be64-62e5aa1bbedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\h">
+      <UniqueIdentifier>{a2653f0c-e5e3-4041-bb13-ae1cd7d4bd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\cpp">
+      <UniqueIdentifier>{7305db34-bb27-47cb-9a81-d5fac40e6732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\common">
+      <UniqueIdentifier>{b1f337dc-0597-4e6f-aea1-a883378b86ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{9e15453a-dcf5-400d-b7ff-6fc543ea1600}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMForibAccMgr.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMLogHelper.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMLogQueryManager.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMPlayer.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMPlayerManager.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMSaveDataCheck.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMServer.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GMServerHanlder.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LogDB.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIDSetter.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPlayer.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPlayerManager.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Server\h</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoMutex.h">
+      <Filter>Server\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\WorldDefine\time.h">
+      <Filter>Server\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\WorldDefine\GMCMessage.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\WorldDefine\GMDefine.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\WorldDefine\GMRoleLogQueryProtocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\WorldDefine\GMSaveProtocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ServerDefine\gmservermessage.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GMForibAccMgr.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMLogHelper.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMLogQueryManager.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMPlayer.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMPlayerManager.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMSaveDataCheck..cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMServer.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMServerHandler_Save.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMServerHanlder.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMServerHanlder_GM.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMServerHanlder_GM_CharacterLog.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GMServerHanlder_Server.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDB.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LogDBSave.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPlayer.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPlayerManager.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Server\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\WorldDefine\time.cpp">
+      <Filter>Server\common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>

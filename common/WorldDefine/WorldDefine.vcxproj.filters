@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="net_msg_define">
+      <UniqueIdentifier>{6001fc50-5bca-46da-92e1-1b34f797d071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_define">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="achievement_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="action_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="all_msg_cmd.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_kill_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="bank_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_ground_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="celeb_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="combat_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="compose_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="currency_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="drop_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="enthrallment_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="exchange_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="fishing_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="function_npc_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="game_sentinel_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="gm_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="gp_mall_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="grubbao_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="guerdon_quest_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="guild_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="item_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="login_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="mail_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="mall_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="map_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="master_prentice_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="paimai_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_equip_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_exchange_protocot.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_skill_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_sns_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pk_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="prison_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol_common_errorcode.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="quest_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="rank_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="remove_role_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="reputation_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="return_select_role_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="ride_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="role_att_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="role_card_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="role_info_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="role_title_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="script_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="select_role_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="show_item_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="social_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="stall_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="talent_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="team_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamRandShareDefine.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamRandShareProtocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="time_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="verification_protocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherProtocol.h">
+      <Filter>net_msg_define</Filter>
+    </ClInclude>
+    <ClInclude Include="achievement_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarAtt.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="base_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleGround.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="buff_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="chat_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="compose_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="container_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="cost_type_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="creature_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="currency_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="dword_flag.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="exchange_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="famehall_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="fishing_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="formula_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulaParamDefine.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="func_npc_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="gp_mall_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="group_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="guerdon_quest_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="guild_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefine.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="LianHun_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="loot.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="mail_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="mall_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="MapAttDefine.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="master_prentice_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="mingtie.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="move_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_equip_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_skill_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="pk_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestDef.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="Raid_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="rank_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="reputation.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="reward_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="ride_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="role_god_level.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleCarryDefine.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleDefine.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="script_data.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptMsgInfo.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialDef.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="specfunc_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="stall_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="suit_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="talent_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="title_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="TreasureChest_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="variable_len.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="vcard_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+    <ClInclude Include="vip_define.h">
+      <Filter>base_define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="filter.cpp">
+      <Filter>base_define</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>base_define</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

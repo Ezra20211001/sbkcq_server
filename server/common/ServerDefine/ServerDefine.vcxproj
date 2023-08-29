@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD9531B8-6CAB-45EE-B087-CE3EDCD39A36}</ProjectGuid>
+    <RootNamespace>ServerDefine</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)library\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\_rubbish\Server\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)library\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\_rubbish\Server\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="achievement_server_define.h" />
+    <ClInclude Include="activity_server_define.h" />
+    <ClInclude Include="anti_addiction_server_define.h" />
+    <ClInclude Include="bank_server_define.h" />
+    <ClInclude Include="base_server_define.h" />
+    <ClInclude Include="bill_message_client.h" />
+    <ClInclude Include="bill_message_server.h" />
+    <ClInclude Include="clandata_server_define.h" />
+    <ClInclude Include="common_server_define.h" />
+    <ClInclude Include="consolidate_server_define.h" />
+    <ClInclude Include="famehall_server_define.h" />
+    <ClInclude Include="gm_tool_define.h" />
+    <ClInclude Include="gm_tool_message_client.h" />
+    <ClInclude Include="guerdon_quest_protocol.h" />
+    <ClInclude Include="guild_server_define.h" />
+    <ClInclude Include="item_server_define.h" />
+    <ClInclude Include="leftmsg_server_define.h" />
+    <ClInclude Include="login_server_define.h" />
+    <ClInclude Include="login_world.h" />
+    <ClInclude Include="log_server_define.h" />
+    <ClInclude Include="lottery_server_define.h" />
+    <ClInclude Include="mail_server_define.h" />
+    <ClInclude Include="mall_server_define.h" />
+    <ClInclude Include="master_apprentice_server_define.h" />
+    <ClInclude Include="montior_define.h" />
+    <ClInclude Include="montior_message_client.h" />
+    <ClInclude Include="montior_message_errorcode.h" />
+    <ClInclude Include="montior_message_server.h" />
+    <ClInclude Include="paimai_define.h" />
+    <ClInclude Include="paimai_server_define.h" />
+    <ClInclude Include="pet_server_define.h" />
+    <ClInclude Include="quest_server_define.h" />
+    <ClInclude Include="rank_server_define.h" />
+    <ClInclude Include="role_data_server_define.h" />
+    <ClInclude Include="TeamShareQuestServerDefine.h" />
+    <ClInclude Include="title_server_define.h" />
+    <ClInclude Include="vcard_server_define.h" />
+    <ClInclude Include="vipstall_server_define.h" />
+    <ClInclude Include="vip_netbar_server_define.h" />
+    <ClInclude Include="WeatherDefine.h" />
+    <ClInclude Include="yuanbao_server_define.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base_server_define.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="login_world_message">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="montior_define">
+      <UniqueIdentifier>{c02e68f7-f881-431e-b387-de2d4562355b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm_tool_message">
+      <UniqueIdentifier>{ef33bd60-b1dd-4033-bf22-45bb643f50f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bill_message">
+      <UniqueIdentifier>{e5cb6f3b-4ea7-4cf8-8c8f-4b41e05a531c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{f9d08293-6bc2-4e22-8e90-db89160db3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paimai_message">
+      <UniqueIdentifier>{de6f8228-fba7-46f6-88e2-e36a931bcabd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="login_world.h">
+      <Filter>login_world_message</Filter>
+    </ClInclude>
+    <ClInclude Include="montior_define.h">
+      <Filter>montior_define</Filter>
+    </ClInclude>
+    <ClInclude Include="montior_message_client.h">
+      <Filter>montior_define</Filter>
+    </ClInclude>
+    <ClInclude Include="montior_message_errorcode.h">
+      <Filter>montior_define</Filter>
+    </ClInclude>
+    <ClInclude Include="montior_message_server.h">
+      <Filter>montior_define</Filter>
+    </ClInclude>
+    <ClInclude Include="gm_tool_define.h">
+      <Filter>gm_tool_message</Filter>
+    </ClInclude>
+    <ClInclude Include="gm_tool_message_client.h">
+      <Filter>gm_tool_message</Filter>
+    </ClInclude>
+    <ClInclude Include="bill_message_client.h">
+      <Filter>bill_message</Filter>
+    </ClInclude>
+    <ClInclude Include="bill_message_server.h">
+      <Filter>bill_message</Filter>
+    </ClInclude>
+    <ClInclude Include="achievement_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="activity_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="anti_addiction_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="bank_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="clandata_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="common_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="consolidate_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="famehall_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="guerdon_quest_protocol.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="guild_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="item_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="leftmsg_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="log_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="login_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="lottery_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="mail_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="mall_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="master_apprentice_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="paimai_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="pet_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="quest_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="rank_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="role_data_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamShareQuestServerDefine.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="title_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="vcard_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="vip_netbar_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="vipstall_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherDefine.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="yuanbao_server_define.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="paimai_define.h">
+      <Filter>paimai_message</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base_server_define.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

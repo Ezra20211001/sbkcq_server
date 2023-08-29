@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{31715f06-a132-4f29-84c5-c8c9720efd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lzo">
+      <UniqueIdentifier>{3c76d119-6215-44ab-861c-acfba81ae852}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="minilzo\LZOCONF.H">
+      <Filter>lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="minilzo\lzodefs.h">
+      <Filter>lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="minilzo\MINILZO.H">
+      <Filter>lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="base_define.h" />
+    <ClInclude Include="des.h" />
+    <ClInclude Include="error_alarm.h" />
+    <ClInclude Include="fast_calculate.h" />
+    <ClInclude Include="FastDelegate.h" />
+    <ClInclude Include="FastDelegateBind.h" />
+    <ClInclude Include="file_filter.h" />
+    <ClInclude Include="file_io_manager.h" />
+    <ClInclude Include="serverbase.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="tool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="zlib\zdll.exp">
+      <Filter>zlib</Filter>
+    </None>
+    <None Include="zlib\zlib.def">
+      <Filter>zlib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="zlib\zdll.lib">
+      <Filter>zlib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="minilzo\MINILZO.C">
+      <Filter>lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="base_define.cpp" />
+    <ClCompile Include="des.cpp" />
+    <ClCompile Include="error_alarm.cpp" />
+    <ClCompile Include="file_filter.cpp" />
+    <ClCompile Include="file_io_manager.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="tool.cpp" />
+  </ItemGroup>
+</Project>
