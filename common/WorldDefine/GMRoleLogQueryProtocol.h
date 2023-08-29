@@ -25,7 +25,7 @@
 #pragma  pack(push,1)
 
 #include "GMDefine.h"
-#include "../../common/WorldDefine/RoleDefine.h"
+#include "../common/WorldDefine/RoleDefine.h"
 
 //! GM客户端->GM服务器
 //根据平台账号ID进行查询 gx add 2013.11.05
